@@ -8,6 +8,7 @@
         "symfony/console": "*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "*",
+        "symfony/web-server-bundle": "*",
         "symfony/yaml": "*"
     },
     "require-dev": {
