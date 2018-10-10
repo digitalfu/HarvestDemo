@@ -1,3 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+harvest:
+    path: /harvest
+    controller: App\Controller\HarvestController::index
