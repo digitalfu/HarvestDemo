@@ -19,3 +19,5 @@ behat.yml
 .phpunit
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
+
+bin
