@@ -16,7 +16,7 @@ class HarvestService
     function getDaysTillHarvest(Harvest $harvest)
     {
         $today = new DateTime();
-        $daysTillHarvest = $today->diff($harvest->getDate(), true)->days;
+        $daysTillHarvest = $today->diff($harvest->getDate())->days;
 
         return $daysTillHarvest;
     }
