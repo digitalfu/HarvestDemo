@@ -1,9 +1,9 @@
 FROM php:7.1-jessie
 
 RUN apt-get update \
-    && apt-get install -y git zip unzip
+    && apt-get install -y git libzip-dev
 
-RUN pecl install timecop-beta \
+RUN pecl install zip timecop-beta \
     && echo "extension=timecop.so" >> /usr/local/etc/php/php.ini
 
 RUN curl -sS https://getcomposer.org/installer | php \
